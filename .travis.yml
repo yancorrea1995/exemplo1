@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+# command to run tests
+script: 
+  - py.test test.py
+
+after_script:
+notifications:
+  recipients:
+    - yancorrea1995@gmail.com
